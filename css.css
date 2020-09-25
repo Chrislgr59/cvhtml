@@ -1,0 +1,75 @@
+header {
+		margin: 25px 25px 5px 25px;
+		background-color: black;
+		}
+body {
+		margin: 25px 25px 5px 25px;
+		background-color:black;
+	}
+h1 {
+	font-family: Helvetica;
+	text-align: left;
+	color:green;
+	position:absolute;
+	font-size:50px;
+	}
+h3 {
+	font-family:Helvetica;
+	text-decoration: underline;
+    color: #A81A9B;
+	}
+#Liste a:visited {
+	background-color: black;
+	color:green;
+	}
+	#Liste a:hover {
+	background-color: black;
+	color:red;
+	}
+#Liste a:link {
+	background-color: black;
+	color:black;
+	}
+#Liste a:active {
+	background-color: black;
+	color:Yellow;
+	}
+#Liste {
+	background-color: black;
+	top: 0px;
+	position:relative;
+	}
+.texte {
+	color: white;
+	text-align: left;
+	}
+.Tableau {
+	font-size: 25px;
+	font-family: Helvetica;
+	color: red;
+	}
+.GTableau{
+	border: 3px solid black;
+	}
+th {
+	padding: 10px 40px 10px 40px;
+	border: 1px solid blue;
+	border-collapse: collapse;
+	color: white;
+	} 
+tr { 
+	padding: 20px; 
+	color: white;
+ }
+ #photo {
+	 float:right;
+	}
+.texte2 {
+	color: white;
+	text-align: left;
+	line-height: 5px;
+	position:relative;
+	top:100px;
+	left: 1500px;
+	font-size:10px;
+}

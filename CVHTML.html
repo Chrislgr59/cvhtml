@@ -2,14 +2,22 @@
 <html lang="fr">
 	<head> <!-- Tout ce qui sera cachait sur le site -->
 		<title>Mon CV</title> <!--Nom de l'onglet-->
+		<link href="css.css" media="all" rel="stylesheet"
+			type="text/css"/>
 	</head>
 	<body> <!-- Contenu du site : images textes etc..-->
 		<header>		
-			<h1>Chris LEGRAND.</h1> <!--Titre en taille 1-->
-			<img src="photocv.jpg" alt="Ma photo" title="Ma photo"/>
+			<h1>Chris LEGRAND</h1> <!--Titre en taille 1-->
+			<img id="photo" src="photocv.jpg" alt="Ma photo" title="Ma photo"/>
+			<p class="texte2">07.69.18.71.07</p>
+			<p class="texte2">legrand.chris59@gmail.com</p>
+			<p class="texte2">29.06.2000</p>
+			<p class="texte2">46 rue du laboureur</p>
+			<p class="texte2">59200, Tourcoing</p>
+			</br></br></br></br></br></br></br></br>
 		</header>
 		<nav>
-			<ol>
+			<ol id="Liste">
 				<li><a href="#profil">Mon profil</a></li>
 				<li><a href="#exp">Mes experience professionnel</a></li>
 				<li><a href="#diplomes">Mes diplomes</a></li>
@@ -19,14 +27,14 @@
 		</nav>
 		<section>
 			<h3 id="profil">Mon profil</h3>
-				<p>Apres 1 an en tant que technicien d'usinage souhaitant me reorienter vers une filliaire plus acces autour des ordinateurs.
+				<p class="texte">Apres 1 an en tant que technicien d'usinage souhaitant me reorienter vers une filliaire plus acces autour des ordinateurs.
 				J'ai rejoins <br/> en 1ere le lycee Cesar Baggio en production graphique durant 2 ans mais etant donner que ce
 				n'etait pas ce que je recherchais exactement <br/>je me suis de nouveau reorienter vers la filliaire SN au lycee Leonard de Vinci 
 				a Roubaix j'ai donc du refaire une 1ere puis ma terminal.</p>
 		</section>
 		<section>
 			<h3 id="exp">Mes experiences professionnels</h3> <!--Titre en taille 3-->
-				<ul> <!-- Liste non ordonnees (sans numéros)-->
+				<ul class="texte"> <!-- Liste non ordonnees (sans numéros)-->
 					<li><b>2015-2016 :</b> PFMP 8 semaines dans une entreprise d'usinage (Fabrication de pieces metaliques</li> <!--élément de la liste-->
 					<li><b>2016-2017 :</b> PFMP 8 semaines en tant que graphiste dans une autre entreprise d'usinage (Creation de page de presentation de produits).</li>
 					<li><b>2017-2018 :</b> PFMP 8 semaines a Clayes jeu (Design de jeux pour enfants).</li>
@@ -35,7 +43,7 @@
 		</section>
 		<section>
 			<h3 id="diplomes">Mes diplomes</h3>
-				<ul>
+				<ul class="texte">
 					<li><b>2017 :</b> Brevet etude professionnel en production graphique.</li>
 					<li><b>2019 :</b> Brevet etude professionnel en systeme numerique.</li>
 					<li><b>2020 :</b> Bac professionnel en systeme numerique.</li>
@@ -44,7 +52,7 @@
 		</section>
 		<section>
 			<h3 id="formation">Formations</h3>
-				<ul>
+				<ul class="texte">
 					<li><b>2015-2016 :</b> Bac Professionnel en usinage au lycee numerique Colbert.</li>
 					<li><b>2016-2018 :</b> Bac professionnel en production graphique au lycee Cesar Baggio.</li>
 					<li><b>2018-2020 :</b> Bac professionnel en systemes numerique au lycee Leonard de Vinci</li>
@@ -52,8 +60,8 @@
 		</section>
 		<section>
 			<h3 id="competence">Mes competences</h3>	
-				<table >	<!-- création du tableau-->
-					<caption> Informatique </caption> <!--titre du tableau-->
+				<table class="GTableau">	<!-- création du tableau-->
+					<caption class="Tableau">Informatique </caption> <!--titre du tableau-->
 						<tr> <!--première ligne-->
 							<th> </th>
 							<th> Bureautique </th> <!--première colonne-->
@@ -85,8 +93,8 @@
 							<th> </th>
 						</tr>
 				</table>
-				<table>	<!-- création du tableau-->
-					<caption> Langue </caption> <!--titre du tableau-->
+				<table class="GTableau">	<!-- création du tableau-->
+					<caption class="Tableau"> Langue </caption> <!--titre du tableau-->
 						<tr> <!--première ligne-->
 							<th> </th>
 							<th> Anglais </th> <!--première colonne-->
