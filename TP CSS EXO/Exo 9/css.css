@@ -1,0 +1,17 @@
+h1
+{
+	position:absolute;
+	left: 500px;
+	background-color:grey;
+	text-align:center;
+}
+.colonne2
+{
+	float:left;
+	width:200px;
+}
+.colonne1
+{
+	float:left;
+	width:200px;
+}

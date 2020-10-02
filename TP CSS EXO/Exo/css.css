@@ -1,0 +1,10 @@
+#exo1 {
+	background: red; 
+	border: 5px solid black; 
+	text-align: center; 
+	font-size: 2em; 
+	color: white;
+	padding:10px; 
+	margin:20px;
+	font-family:tahoma
+	}

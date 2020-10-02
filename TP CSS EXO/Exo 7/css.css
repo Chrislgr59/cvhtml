@@ -1,0 +1,36 @@
+.rouge {
+	background: red; 
+	border: 5px solid black; 
+	text-align: center; 
+	font-size: 2em; 
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width:500px;
+	font-family:tahoma;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	position:absolute;
+	z-index:2;
+	}
+.jaune {
+	background: yellow; 
+	border: 5px solid black; 
+	text-align: center; 
+	font-size: 2em; 
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width:500px;
+	font-family:tahoma;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	position:absolute;
+	left:75px;
+	top:25px;
+	z-index:1;
+	}
